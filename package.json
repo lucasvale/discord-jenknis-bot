@@ -1,0 +1,15 @@
+
+{
+  "name": "discord-jenkins-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that integrates with Jenkins",
+  "main": "discord-jenkins-bot.js",
+  "scripts": {
+    "start": "node discord-jenkins-bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "jenkins": "^1.0.1"
+  }
+}
